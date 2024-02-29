@@ -71,6 +71,6 @@ class OrderItem extends Resource
         // NOTE FOR MAINTAINERS: This is the reason why by using `sole()` action we don't have select checkboxes anymore.
         // If you make it `true` then the checkboxes will appear and the "Test sole action" can be executed.
         // !!!!!
-        return true;
+        return false;
     }
 }
