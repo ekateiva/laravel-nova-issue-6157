@@ -16,6 +16,13 @@ php artisan nova:user
 - Visit any Nova _Orders_ resource (`/nova/resources/orders/1` for example)
 - Try to select some _Order Item_, as you would try to execute "Test sole action" action.
 
+### The issue
+
+✅Expected:
+![expected behaviour](./docs/expected.png)
+
+❌Actual:
+![expected behaviour](./docs/actual.png)
 
 ### Resources
 
